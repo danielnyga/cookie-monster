@@ -9,7 +9,7 @@ with respect to cookies. In addition, blocking cookies causes many web
 pages to break. Unfortunately, there is no possibility to temporarily 
 accept cookies and delete them when the session ends.
 
-The cookie monster is a Python script that deletes from the any Firefox 
+The cookie monster is a Python script that deletes from any Firefox 
 profile folder all cookies whose domain does not match the provided 
 whitelist:
 
