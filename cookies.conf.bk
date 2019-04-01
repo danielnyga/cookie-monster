@@ -1,0 +1,9 @@
+[/home/bob/.mozilla/kjds83nd.default]
+allowed_hosts =
+    facebook.com
+    *.mytrustworthyhost.org
+
+[/home/bob/.mozilla/private]
+allowed_hosts =
+    foo.bar
+
