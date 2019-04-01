@@ -13,13 +13,14 @@ The cookie monster is a Python script that deletes from any Firefox
 profile folder all cookies whose domain does not match the provided 
 whitelist:
 
-    [/path/to/prfile]
+    [/path/to/profile]
     allowed_hosts=
         *.domain.org
         *domain.org
         
 The general template of a config file is `cookies.conf.bk`. You can 
-copy it to `cookies.conf` and edit the `allowed_hosts` field.
+rename or copy it to `cookies.conf` and edit the `allowed_hosts` field
+to add the hosts you trust and whose cookies you want to permanently save.
 Multiple Firefox profiles may be added.
 
 The cookie monster can be run in a cron job, for instance, every minute:
